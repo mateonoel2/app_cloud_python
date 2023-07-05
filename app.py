@@ -180,7 +180,3 @@ def route_players_id(player_id):
         db.session.delete(player)
         db.session.commit()
         return "SUCCESS"
-
-
-if __name__ == '__main__':
-    app.run(port=5000)
